@@ -1,1 +1,12 @@
+<!DOCTYPE html><html lang="en"><head>  <meta charset="UTF-8" />  <meta name="viewport" content="width=device-width, initial-scale=1.0" />  <title>Minecraft Username</title>
+  <style>    * {      box-sizing: border-box;    }
+    body {      margin: 0;      min-height: 100vh;      display: grid;      place-items: center;      font-family: "Courier New", monospace;      color: white;      background:        linear-gradient(135deg, transparent 25%, #00000012 25% 50%, transparent 50% 75%, #00000012 75%),        #5c9e37;      background-size: 48px 48px;    }
+    .card {      width: min(90%, 420px);      padding: 32px;      background: #795333;      border: 6px solid #3f2b1b;      box-shadow: 8px 8px 0 #222;      text-align: center;    }
+    h1 {      margin: 0 0 24px;      font-size: clamp(24px, 6vw, 32px);      text-shadow: 3px 3px #333;    }
+    label {      display: block;      margin-bottom: 10px;      font-weight: bold;      text-align: left;    }
+    input {      width: 100%;      padding: 14px;      border: 4px solid #444;      background: #e5e5e5;      color: #222;      font: inherit;      font-size: 16px;      outline: none;    }
+    input:focus {      border-color: #8ccf46;    }
+    input::placeholder {      color: #777;    }  </style></head>
+<body>  <main class="card">    <h1>Minecraft Username</h1>    <label for="username">Enter your username:</label>    <input      id="username"      name="username"      type="text"      placeholder="Type your username..."      autocomplete="off"    />  </main></body></html>
+
 
