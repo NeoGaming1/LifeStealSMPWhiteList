@@ -70,13 +70,24 @@
   <main class="card">
     <h1>Minecraft Username</h1>
     <label for="username">Enter your username:</label>
-    <input
-      id="username"
-      name="username"
-      type="text"
-      placeholder="Type your username..."
-      autocomplete="off"
-    />
+    <form action="https://webflow.com/api/v1/form/6afcb1dd67bba387a0b83f52" method="POST">
+  <input type="hidden" name="name" value="Whitelist">
+  <input type="hidden" name="pageId" value="6afcb1de67bba387a0b83f6d">
+  <input type="hidden" name="elementId" value="46650997-276e-fed5-32ee-1565e4142c72">
+  <input type="hidden" name="domain" value="lifesteal-d2d817.webflow.io">
+  <input type="hidden" name="collectionId" value="">
+  <input type="hidden" name="itemSlug" value="">
+  <input type="hidden" name="source" value="https://lifesteal-d2d817.webflow.io/">
+  <input type="hidden" name="test" value="false">
+  <input type="hidden" name="dolphin" value="false">
+
+  <label for="username">Minecraft username</label>
+  <input id="username" name="fields[username]" type="text" required>
+
+  
+  <button type="submit">Submit</button>
+</form>
+
   </main>
 </body>
 </html>
